@@ -1,1 +1,1 @@
-# flow1-week3
+first attempt at travis. mixed results, but it should work. 

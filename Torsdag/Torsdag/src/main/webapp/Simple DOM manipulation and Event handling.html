@@ -1,0 +1,61 @@
+
+
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+
+
+  
+<div id="Orange">
+
+<div id="Blue">
+
+<div id="Green">
+
+id="outer" 
+  <p>Orange.</p>
+  <p1>Blue</p1>
+  <p2>Green</p2>
+</div>
+
+
+<button onclick="myFunction()">Orange</button>
+<button onclick="myFunction1()">Blue</button>
+<button onclick="myFunction2()">Green</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Orange");
+  var y = x.getElementsByTagName("P");
+  var i;
+  for (i = 0; i < y.length; i++) {
+    y[i].style.backgroundColor = "orange";
+  }
+}
+
+function myFunction1() {
+  var x = document.getElementById("Blue");
+  var y = x.getElementsByTagName("P1");
+  var i;
+  for (i = 0; i < y.length; i++) {
+    y[i].style.backgroundColor = "blue";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("Green");
+  var y = x.getElementsByTagName("P2");
+  var i;
+  for (i = 0; i < y.length; i++) {
+    y[i].style.backgroundColor = "Green";
+  }
+}
+</script>
+
+</body>
+</html>
+

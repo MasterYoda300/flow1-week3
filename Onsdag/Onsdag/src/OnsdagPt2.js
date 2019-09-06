@@ -26,8 +26,30 @@ console.log(cb(3, 3, add())); // Result from the two numbers: 3+3=NaN3
 console.log(cb(3, "hh", add));// Result from the two numbers: 3+hh=function add(n1, n2) {return n1 + n2;}hh
 
 
-// 3)  Error Handling
-
-// mangler!!!!
+// 3)  
 
 
+var names = ["Lars", "Ib", "Jan", "Ian"];
+
+
+  const shortNames = names.filter(name => name.length <= 3);
+  
+  names.forEach(function(element)
+  {
+      console.log(element);
+  })
+  
+  shortNames.forEach(function(element)
+  {
+      console.log(element);
+  })
+  
+  const mapOfDoom = names.map(a => a.toUpperCase());
+  console.log(mapOfDoom);
+  
+  function htmlString(array)
+  {
+      const arrayMap = array.map(a=> "<li>" + a+ "</li>")
+      return "<ul>" + arrayMap.join('') + "<ul>"
+  }
+  console.log(htmlString(names))

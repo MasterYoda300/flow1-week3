@@ -99,3 +99,7 @@ console.log("Kurt Lone Peter Sanne hanne lars".toUpperCase());
 
 // m) Create a new array containing all the names that start with either “l” or “L” (hint: use the filter function with a sufficient callback). 
 
+const result = all.filter(word => word.startsWith("L"));
+const result_ = all.filter(word => word.startsWith("l"));
+console.log(result + " " + result_);
+

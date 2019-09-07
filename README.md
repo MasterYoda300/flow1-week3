@@ -5,3 +5,4 @@ Onsdag: er tingene besvaret med undtagelse for errorhandling delen, som blev dro
 
 Torsdag: er kun starten lavet og slutningen af opgaven er lommeregneren halvt besvaret, men ikke på den rigtige måde. De andre opgaver har jeg forsøgt, men måtte opgive pga af manglende tid. 
 
+HUSK JEG ER GRØN! :D  
